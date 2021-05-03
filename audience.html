@@ -7,121 +7,15 @@
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
-    <style>
-      body{
-        width:100%;
-        background-color: rgb(231, 206, 231);
-        margin:0;
-      }
-      #logo{
-        width:200px;
-      }
-      #header-img{
-        float:right;
-        width:200px;
-        margin:10px;
-        /*box-shadow: 5px 5px 10px black;*/
-      }
-      .nav-link{
-        font-size: larger;
-      }
-      .dropdown-submenu {
-        position: relative;
-      }
-      .dropdown-submenu>.dropdown-menu {
-          top: 0;
-          left: 100%;
-          margin-top: -6px;
-          margin-left: -1px;
-          -webkit-border-radius: 0 6px 6px 6px;
-          -moz-border-radius: 0 6px 6px;
-          border-radius: 0 6px 6px 6px;
-      }
-
-      .dropdown-submenu:hover>.dropdown-menu {
-          display: block;
-      }
-
-      .dropdown-submenu>a:after {
-          display: block;
-          content: " ";
-          float: right;
-          width: 0;
-          height: 0;
-          border-color: transparent;
-          border-style: solid;
-          border-width: 5px 0 5px 5px;
-          border-left-color: #ccc;
-          margin-top: 5px;
-          margin-right: -10px;
-      }
-
-      .dropdown-submenu:hover>a:after {
-          border-left-color: #fff;
-      }
-
-      .dropdown-submenu.pull-left {
-          float: none;
-      }
-
-      .dropdown-submenu.pull-left>.dropdown-menu {
-          left: -100%;
-          margin-left: 10px;
-          -webkit-border-radius: 6px 0 6px 6px;
-          -moz-border-radius: 6px 0 6px 6px;
-          border-radius: 6px 0 6px 6px;
-      }
-      #title{
-        text-align: left;
-        font-weight: 500;
-        color:rgb(71, 49, 71);
-      }
-      #name{
-        font-weight: 700;
-        color:rgb(71, 49, 71);
-        font-size: 100px;
-      }
-      #home-img{
-        height:580px;
-        margin:0;
-      }
-      .container{
-        margin:0;
-      }
-      .col-5{
-        margin:0;
-      }
-	  .row{
-          margin:50px;
-          margin-right: 50px;
-      }
-      .content{
-          font-weight: lighter;
-          font-size:larger;
-          line-height:35px;
-      }
-	  .listplat, .listgold, .listsilver, .listcust{
-		text-align:center;
-		list-style-position:inside;
-		list-style:none;
-	  }
-      #global-footer{
-        background-color:rgb(71, 49, 71);
-        margin:0;
-        height: auto;
-        color:white;
-        font-weight: lighter;
-        font-size: small;
-      }
-    </style>
+    <link rel="stylesheet" href="redesign.css">
     <title>Audiences</title>
   </head>
   <body>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
     <header>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <nav class="navbar navbar-expand-lg navbar-light navbar-custom">
         <div class="container-fluid">
-          <a class="navbar-brand"href="redesign-home.html"><img  id="logo" src="creative-aging-logo.png"></a>
+          <a class="navbar-brand"href="index.html"><img  id="logo" src="creative-aging-logo.png"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -135,7 +29,7 @@
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                   <li><a class="dropdown-item" href="benefits.html">Benefits</a></li>
-                  <li><a class="dropdown-item" href="calendar.html">Calendar</a></li>
+                  <li><a class="dropdown-item" href="comingsoon.html">Calendar</a></li>
                     <li class="dropdown-submenu">
                       <a  class="dropdown-item" tabindex="-1" href="programs.html">Programs</a>
                       <ul class="dropdown-menu">
@@ -150,8 +44,8 @@
                     </li>
                   </li>
                   <li><a class="dropdown-item" href="audience.html">Audiences</a></li>
-                  <li><a class="dropdown-item" href="join.html">Join/Renew Membership</a></li>
-                  <li><a class="dropdown-item" href="payment.html">Make a Payment</a></li>
+                  <li><a class="dropdown-item" href="comingsoon.html">Join/Renew Membership</a></li>
+                  <li><a class="dropdown-item" href="comingsoon.html">Make a Payment</a></li>
                 </ul>
               </li>
               <li class="nav-item">
@@ -167,7 +61,7 @@
                   <li><a class="dropdown-item" href="outreach.html">Outreach Programs</a></li>
                 </ul>
                 <li class="nav-item">
-                  <a class="nav-link" aria-current="page" href="contact.html">Contact</a>
+                  <a class="nav-link" aria-current="page" href="comingsoon.html">Contact</a>
                 </li>
             </ul>
           </div>
@@ -262,7 +156,7 @@
 			</div>
 		</div>
 	</div>
-    <div id="global-footer" class="fixed-bottom">
+    <div id="global-footer" class="sticky-bottom">
       <p style="text-align: center;">
         © 2021 Creative Aging Cincinnati - P.O. Box 428638 - Cincinnati, Ohio 45242 - Phone: 513.561.7500<br>
         <a id="global-footer" href="http://www.creativeagingcincinnati.org">www.creativeagingcincinnati.org</a>
