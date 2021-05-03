@@ -100,6 +100,11 @@
           font-size:larger;
           line-height:35px;
       }
+	  .listadmin, .listoff, .listboard{
+		text-align:center;
+		list-style-position:inside;
+		list-style:none;
+	  }
       #global-footer{
         background-color:rgb(71, 49, 71);
         margin:0;
@@ -174,50 +179,59 @@
         <div class="row row-cols-1">
           <div class="col admin">
               <h1>Administration/Board of Directors</h1>
-			  <h3><u>Administration</u></h3><br />
-			  <img style="border:1px black solid;"src="BevRoss.png" />
-              <p class="content">Bev Ross, Executive Director</p>
-			  <p class="content">513-561-7500</p>
-			  <p class="content">Email- director@creativeagingcincinnati.org</p><br /> 
-			  <img style="border:1px black solid;"src="LisaLegters.jpg" />
-              <p class="content">Lisa Legters, Program Director</p>
-			  <p class="content">513-200-6940</p>
-			  <p class="content">Email- programs@creativeagingcincinnati.org</p>
+			  <h3 class="listadmin"><u>Administration</u></h3><br />
+				<ul class="listadmin">
+				  <li><img style="border:1px black solid;"src="BevRoss.png" /></li>
+				  <li><p class="content">Bev Ross, Executive Director</p></li>
+				  <li><p class="content">513-561-7500</p></li>
+				  <li><p class="content">Email- director@creativeagingcincinnati.org</p></li><br />
+				  <li><img style="border:1px black solid;"src="LisaLegters.jpg" /></li>
+				  <li><p class="content">Lisa Legters, Program Director</p></li>
+				  <li><p class="content">513-200-6940</p></li>
+				  <li><p class="content">Email- programs@creativeagingcincinnati.org</p><li>
+				</ul>
   		    </div><hr>
 			<div class="col officers">
-				<h3><u>Officers</u></h3><br />
-				<p class="content">Mr. Johnnie Carroll, Board Chair - US Bank, President, Kroger Banking Services</p>
-				<p class="content">Ms. Deb Cohen, Vice Chair - Univerity of Cincinnati, Leasing Agent/Property Manager, Retired</p>
-				<p class="content">Mr. John Riccardi - The Private Client Reserve at US Bank, Personal Trust Officer</p>
-				<p class="content">Ms. Retina Carter, Secretary - Procter and Gamble, Flavors and Fragrances Global Project Leader</p>
+				<h3 class="listoff"><u>Officers</u></h3>
+					<ul class="listoff">
+						<li><p class="content">Mr. Johnnie Carroll, Board Chair - US Bank, President, Kroger Banking Services</p></li>
+						<li><p class="content">Ms. Deb Cohen, Vice Chair - Univerity of Cincinnati, Leasing Agent/Property Manager, Retired</p></li>
+						<li><p class="content">Mr. John Riccardi - The Private Client Reserve at US Bank, Personal Trust Officer</p></li>
+						<li><p class="content">Ms. Retina Carter, Secretary - Procter and Gamble, Flavors and Fragrances Global Project Leader</p></li>
+					</ul>
 			</div><hr>
 			<div class="col board dir">
-				<h3><u>Board of Directors</u></h3><br />
-				<p class="content">Ms. Kathy Baker - Senior Care Corporation, Marketing Director</p>
-				<p class="content">Mr. Phil Crabtree* - University of Cincinnati, College Conservatory of Music, Professor Emeritus of Musicology, Retired</p>
-				<p class="content">Mr. Jeff Hinebaugh - Dinsmore and Shohl LLP, Legal Council</p>
-				<p class="content">S. Marge Kloos - Sisters of Charity, Executive Councilor</p>
-				<p class="content">Ms. Kelly Kneflin - WJ Fylnn and Associates, Marketing</p>
-				<p class="content">Ms. Veronica McGhee - Procter and Gamble, One FEI / Global Packaging Development R&D Administrator</p>
-				<p class="content">Ms. Marilyn Ormsbee - Procter and Gamble, Retired / Aide to Bobbie Sterne, Retired</p>
-				<p class="content">Ms. Valerie Smith - Multi Color Corporation, Senior Treasury Analyst</p>
-				<p class="content">Ms. Jenny Billinger Rye - Mercy Neighborhood Ministries, Director of Homecare</p>
-				<p class="content">Ms. Judy Singleton - University of Cincinnati, UCBA, Department of Behavioral Sciences/Social Work, Professor</p>
-				<p class="content">Mr. Michael Wheatley* - Procter and Gamble, Accountant/ Global Tax</p>
+				<h3 class="listboard"><u>Board of Directors</u></h3><br />
+					<ul class="listboard">
+						<li><p class="content">Ms. Kathy Baker - Senior Care Corporation, Marketing Director</p></li>
+						<li><p class="content">Mr. Phil Crabtree* - University of Cincinnati, College Conservatory of Music, Professor Emeritus of Musicology, Retired</p></li>
+						<li><p class="content">Mr. Jeff Hinebaugh - Dinsmore and Shohl LLP, Legal Council</p></li>
+						<li><p class="content">S. Marge Kloos - Sisters of Charity, Executive Councilor</p></li>
+						<li><p class="content">Ms. Kelly Kneflin - WJ Fylnn and Associates, Marketing</p></li>
+						<li><p class="content">Ms. Veronica McGhee - Procter and Gamble, One FEI / Global Packaging Development R&D Administrator</p></li>
+						<li><p class="content">Ms. Marilyn Ormsbee - Procter and Gamble, Retired / Aide to Bobbie Sterne, Retired</p></li>
+						<li><p class="content">Ms. Valerie Smith - Multi Color Corporation, Senior Treasury Analyst</p></li>
+						<li><p class="content">Ms. Jenny Billinger Rye - Mercy Neighborhood Ministries, Director of Homecare</p></li>
+						<li><p class="content">Ms. Judy Singleton - University of Cincinnati, UCBA, Department of Behavioral Sciences/Social Work, Professor</p></li>
+						<li><p class="content">Mr. Michael Wheatley* - Procter and Gamble, Accountant/ Global Tax</p></li>
+					</ul>
 			</div><hr>
 			<div class="col board ad">
-				<h3><u>Advisory Board</u></h3><br />
-				<p class="content">Mr. Phil Crabtree* -University of Cincinnati, College Conservatory of Music, Professor Emeritus of Musicology, Retired</p>
-				<p class="content">Mr. Phil DeGreg - University of Cincinnati, College Conservatory of Music, Professor of Jazz</p>
-				<p class="content">Mr. Bart Kohler - Hubert Company, President and COO</p>
-				<p class="content">Ms. Emily Haunz Stubbins - Strategist</p>
-				<p class="content">Ms. Chris Wuest - Nonprofit Consultant</p>
-				<p class="content">Mr. Stacey Woolley - Cincinnati  Symphony Orchestra, Violinist</p>
-				<p>* Director Emeritus</p>
+				<h3 class="listboard"><u>Advisory Board</u></h3><br />
+					<ul class="listboard">
+						<li><p class="content">Mr. Phil Crabtree* -University of Cincinnati, College Conservatory of Music, Professor Emeritus of Musicology, Retired</p></li>
+						<li><p class="content">Mr. Phil DeGreg - University of Cincinnati, College Conservatory of Music, Professor of Jazz</p></li>
+						<li><p class="content">Mr. Bart Kohler - Hubert Company, President and COO</p></li>
+						<li><p class="content">Ms. Emily Haunz Stubbins - Strategist</p></li>
+						<li><p class="content">Ms. Chris Wuest - Nonprofit Consultant</p></li>
+						<li><p class="content">Mr. Stacey Woolley - Cincinnati  Symphony Orchestra, Violinist</p></li>
+						<li><p>* Director Emeritus</p></li>
 			</div><hr>
 			<div class="col board hon">
-				<h3><u>Honorary Board</u></h3><br />
-				<p class="content">John Morris Russell, Conductor, Cincinnati Pops Orchestra</p>
+				<h3 class="listboard"><u>Honorary Board</u></h3><br />
+					<ul class="listboard">
+						<li><p class="content">John Morris Russell, Conductor, Cincinnati Pops Orchestra</p></li>
+					</ul>
 			</div>
 		</div>
 	</div>
